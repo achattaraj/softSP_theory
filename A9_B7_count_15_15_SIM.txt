@@ -1,0 +1,380 @@
+*** TIME INFORMATION ***
+Total time: 5.00E-02
+dt: 1.00E-08
+dt_spring: 1.00E-9
+dt_data: 1.00E-03
+dt_image: 2.00E-03
+
+*** SYSTEM INFORMATION ***
+L_x: 0.12
+L_y: 0.12
+L_z_out: 0.01
+L_z_in: 0.12
+Partition Nx: 12
+Partition Ny: 12
+Partition Nz: 13
+
+
+*** MOLECULES ***
+
+MOLECULE: "poly_A" Intracellular Number 15 Site_Types 2 Total_Sites 36 Total_Links 35 is2D false
+{
+	TYPE: Name "A" Radius 1 D 2.000 Color MAGENTA STATES "State0"
+	TYPE: Name "L_a" Radius 1 D 2.000 Color ORANGE STATES "State0"
+
+	SITE 0 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 0.0 y 0.0 z 0
+	SITE 1 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 2.5 y 0.0 z 0
+	SITE 2 : Intracellular : Initial State 'State0'
+		TYPE: Name "A" Radius 1.00 D 2.000 Color MAGENTA STATES "State0"
+		x 5.0 y 0.0 z 0
+	SITE 3 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 7.5 y 0.0 z 0
+	SITE 4 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 10.0 y 0.0 z 0
+	SITE 5 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 12.5 y 0.0 z 0
+	SITE 6 : Intracellular : Initial State 'State0'
+		TYPE: Name "A" Radius 1.00 D 2.000 Color MAGENTA STATES "State0"
+		x 12.5 y 2.5 z 0
+	SITE 7 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 10.0 y 2.5 z 0
+	SITE 8 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 7.5 y 2.5 z 0
+	SITE 9 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 5.0 y 2.5 z 0
+	SITE 10 : Intracellular : Initial State 'State0'
+		TYPE: Name "A" Radius 1.00 D 2.000 Color MAGENTA STATES "State0"
+		x 2.5 y 2.5 z 0
+	SITE 11 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 0.0 y 2.5 z 0
+	SITE 12 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 0.0 y 5.0 z 0
+	SITE 13 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 2.5 y 5.0 z 0
+	SITE 14 : Intracellular : Initial State 'State0'
+		TYPE: Name "A" Radius 1.00 D 2.000 Color MAGENTA STATES "State0"
+		x 5.0 y 5.0 z 0
+	SITE 15 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 7.5 y 5.0 z 0
+	SITE 16 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 10.0 y 5.0 z 0
+	SITE 17 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 12.5 y 5.0 z 0
+	SITE 18 : Intracellular : Initial State 'State0'
+		TYPE: Name "A" Radius 1.00 D 2.000 Color MAGENTA STATES "State0"
+		x 12.5 y 7.5 z 0
+	SITE 19 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 10.0 y 7.5 z 0
+	SITE 20 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 7.5 y 7.5 z 0
+	SITE 21 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 5.0 y 7.5 z 0
+	SITE 22 : Intracellular : Initial State 'State0'
+		TYPE: Name "A" Radius 1.00 D 2.000 Color MAGENTA STATES "State0"
+		x 2.5 y 7.5 z 0
+	SITE 23 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 0.0 y 7.5 z 0
+	SITE 24 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 0.0 y 10.0 z 0
+	SITE 25 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 2.5 y 10.0 z 0
+	SITE 26 : Intracellular : Initial State 'State0'
+		TYPE: Name "A" Radius 1.00 D 2.000 Color MAGENTA STATES "State0"
+		x 5.0 y 10.0 z 0
+	SITE 27 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 7.5 y 10.0 z 0
+	SITE 28 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 10.0 y 10.0 z 0
+	SITE 29 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 12.5 y 10.0 z 0
+	SITE 30 : Intracellular : Initial State 'State0'
+		TYPE: Name "A" Radius 1.00 D 2.000 Color MAGENTA STATES "State0"
+		x 12.5 y 12.5 z 0
+	SITE 31 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 10.0 y 12.5 z 0
+	SITE 32 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 7.5 y 12.5 z 0
+	SITE 33 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 5.0 y 12.5 z 0
+	SITE 34 : Intracellular : Initial State 'State0'
+		TYPE: Name "A" Radius 1.00 D 2.000 Color MAGENTA STATES "State0"
+		x 2.5 y 12.5 z 0
+	SITE 35 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_a" Radius 1.00 D 2.000 Color ORANGE STATES "State0"
+		x 0.0 y 12.5 z 0
+
+	LINK: Site 0 ::: Site 1
+	LINK: Site 1 ::: Site 2
+	LINK: Site 2 ::: Site 3
+	LINK: Site 3 ::: Site 4
+	LINK: Site 4 ::: Site 5
+	LINK: Site 5 ::: Site 6
+	LINK: Site 6 ::: Site 7
+	LINK: Site 7 ::: Site 8
+	LINK: Site 8 ::: Site 9
+	LINK: Site 9 ::: Site 10
+	LINK: Site 10 ::: Site 11
+	LINK: Site 11 ::: Site 12
+	LINK: Site 12 ::: Site 13
+	LINK: Site 13 ::: Site 14
+	LINK: Site 14 ::: Site 15
+	LINK: Site 15 ::: Site 16
+	LINK: Site 16 ::: Site 17
+	LINK: Site 17 ::: Site 18
+	LINK: Site 18 ::: Site 19
+	LINK: Site 19 ::: Site 20
+	LINK: Site 20 ::: Site 21
+	LINK: Site 21 ::: Site 22
+	LINK: Site 22 ::: Site 23
+	LINK: Site 23 ::: Site 24
+	LINK: Site 24 ::: Site 25
+	LINK: Site 25 ::: Site 26
+	LINK: Site 26 ::: Site 27
+	LINK: Site 27 ::: Site 28
+	LINK: Site 28 ::: Site 29
+	LINK: Site 29 ::: Site 30
+	LINK: Site 30 ::: Site 31
+	LINK: Site 31 ::: Site 32
+	LINK: Site 32 ::: Site 33
+	LINK: Site 33 ::: Site 34
+	LINK: Site 34 ::: Site 35
+
+	Initial_Positions: Random
+}
+
+MOLECULE: "poly_B" Intracellular Number 15 Site_Types 2 Total_Sites 28 Total_Links 27 is2D false
+{
+	TYPE: Name "B" Radius 1 D 2.000 Color GREEN STATES "State0"
+	TYPE: Name "L_b" Radius 1 D 2.000 Color PINK STATES "State0"
+
+	SITE 0 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 0.0 y 0.0 z 0
+	SITE 1 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 2.5 y 0.0 z 0
+	SITE 2 : Intracellular : Initial State 'State0'
+		TYPE: Name "B" Radius 1.00 D 2.000 Color GREEN STATES "State0"
+		x 5.0 y 0.0 z 0
+	SITE 3 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 7.5 y 0.0 z 0
+	SITE 4 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 10.0 y 0.0 z 0
+	SITE 5 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 12.5 y 0.0 z 0
+	SITE 6 : Intracellular : Initial State 'State0'
+		TYPE: Name "B" Radius 1.00 D 2.000 Color GREEN STATES "State0"
+		x 12.5 y 2.5 z 0
+	SITE 7 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 10.0 y 2.5 z 0
+	SITE 8 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 7.5 y 2.5 z 0
+	SITE 9 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 5.0 y 2.5 z 0
+	SITE 10 : Intracellular : Initial State 'State0'
+		TYPE: Name "B" Radius 1.00 D 2.000 Color GREEN STATES "State0"
+		x 2.5 y 2.5 z 0
+	SITE 11 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 0.0 y 2.5 z 0
+	SITE 12 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 0.0 y 5.0 z 0
+	SITE 13 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 2.5 y 5.0 z 0
+	SITE 14 : Intracellular : Initial State 'State0'
+		TYPE: Name "B" Radius 1.00 D 2.000 Color GREEN STATES "State0"
+		x 5.0 y 5.0 z 0
+	SITE 15 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 7.5 y 5.0 z 0
+	SITE 16 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 10.0 y 5.0 z 0
+	SITE 17 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 12.5 y 5.0 z 0
+	SITE 18 : Intracellular : Initial State 'State0'
+		TYPE: Name "B" Radius 1.00 D 2.000 Color GREEN STATES "State0"
+		x 12.5 y 7.5 z 0
+	SITE 19 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 10.0 y 7.5 z 0
+	SITE 20 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 7.5 y 7.5 z 0
+	SITE 21 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 5.0 y 7.5 z 0
+	SITE 22 : Intracellular : Initial State 'State0'
+		TYPE: Name "B" Radius 1.00 D 2.000 Color GREEN STATES "State0"
+		x 2.5 y 7.5 z 0
+	SITE 23 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 0.0 y 7.5 z 0
+	SITE 24 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 0.0 y 10.0 z 0
+	SITE 25 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 2.5 y 10.0 z 0
+	SITE 26 : Intracellular : Initial State 'State0'
+		TYPE: Name "B" Radius 1.00 D 2.000 Color GREEN STATES "State0"
+		x 5.0 y 10.0 z 0
+	SITE 27 : Intracellular : Initial State 'State0'
+		TYPE: Name "L_b" Radius 1.00 D 2.000 Color PINK STATES "State0"
+		x 7.5 y 10.0 z 0
+
+	LINK: Site 0 ::: Site 1
+	LINK: Site 1 ::: Site 2
+	LINK: Site 2 ::: Site 3
+	LINK: Site 3 ::: Site 4
+	LINK: Site 4 ::: Site 5
+	LINK: Site 5 ::: Site 6
+	LINK: Site 6 ::: Site 7
+	LINK: Site 7 ::: Site 8
+	LINK: Site 8 ::: Site 9
+	LINK: Site 9 ::: Site 10
+	LINK: Site 10 ::: Site 11
+	LINK: Site 11 ::: Site 12
+	LINK: Site 12 ::: Site 13
+	LINK: Site 13 ::: Site 14
+	LINK: Site 14 ::: Site 15
+	LINK: Site 15 ::: Site 16
+	LINK: Site 16 ::: Site 17
+	LINK: Site 17 ::: Site 18
+	LINK: Site 18 ::: Site 19
+	LINK: Site 19 ::: Site 20
+	LINK: Site 20 ::: Site 21
+	LINK: Site 21 ::: Site 22
+	LINK: Site 22 ::: Site 23
+	LINK: Site 23 ::: Site 24
+	LINK: Site 24 ::: Site 25
+	LINK: Site 25 ::: Site 26
+	LINK: Site 26 ::: Site 27
+
+	Initial_Positions: Random
+}
+
+*** MOLECULE COUNTERS ***
+
+'poly_A' : Measure Total Free Bound
+'poly_B' : Measure Total Free Bound
+
+*** STATE COUNTERS ***
+
+'poly_A' : 'A' : 'State0' : Measure Total Free Bound
+'poly_A' : 'L_a' : 'State0' : Measure Total Free Bound
+'poly_B' : 'B' : 'State0' : Measure Total Free Bound
+'poly_B' : 'L_b' : 'State0' : Measure Total Free Bound
+
+*** SITE PROPERTY COUNTERS ***
+
+'poly_A' Site 0 :  Track Properties true
+'poly_A' Site 1 :  Track Properties true
+'poly_A' Site 2 :  Track Properties true
+'poly_A' Site 3 :  Track Properties true
+'poly_A' Site 4 :  Track Properties true
+'poly_A' Site 5 :  Track Properties true
+'poly_A' Site 6 :  Track Properties true
+'poly_A' Site 7 :  Track Properties true
+'poly_A' Site 8 :  Track Properties true
+'poly_A' Site 9 :  Track Properties true
+'poly_A' Site 10 :  Track Properties true
+'poly_A' Site 11 :  Track Properties true
+'poly_A' Site 12 :  Track Properties true
+'poly_A' Site 13 :  Track Properties true
+'poly_A' Site 14 :  Track Properties true
+'poly_A' Site 15 :  Track Properties true
+'poly_A' Site 16 :  Track Properties true
+'poly_A' Site 17 :  Track Properties true
+'poly_A' Site 18 :  Track Properties true
+'poly_A' Site 19 :  Track Properties true
+'poly_A' Site 20 :  Track Properties true
+'poly_A' Site 21 :  Track Properties true
+'poly_A' Site 22 :  Track Properties true
+'poly_A' Site 23 :  Track Properties true
+'poly_A' Site 24 :  Track Properties true
+'poly_A' Site 25 :  Track Properties true
+'poly_A' Site 26 :  Track Properties true
+'poly_A' Site 27 :  Track Properties true
+'poly_A' Site 28 :  Track Properties true
+'poly_A' Site 29 :  Track Properties true
+'poly_A' Site 30 :  Track Properties true
+'poly_A' Site 31 :  Track Properties true
+'poly_A' Site 32 :  Track Properties true
+'poly_A' Site 33 :  Track Properties true
+'poly_A' Site 34 :  Track Properties true
+'poly_A' Site 35 :  Track Properties true
+'poly_B' Site 0 :  Track Properties true
+'poly_B' Site 1 :  Track Properties true
+'poly_B' Site 2 :  Track Properties true
+'poly_B' Site 3 :  Track Properties true
+'poly_B' Site 4 :  Track Properties true
+'poly_B' Site 5 :  Track Properties true
+'poly_B' Site 6 :  Track Properties true
+'poly_B' Site 7 :  Track Properties true
+'poly_B' Site 8 :  Track Properties true
+'poly_B' Site 9 :  Track Properties true
+'poly_B' Site 10 :  Track Properties true
+'poly_B' Site 11 :  Track Properties true
+'poly_B' Site 12 :  Track Properties true
+'poly_B' Site 13 :  Track Properties true
+'poly_B' Site 14 :  Track Properties true
+'poly_B' Site 15 :  Track Properties true
+'poly_B' Site 16 :  Track Properties true
+'poly_B' Site 17 :  Track Properties true
+'poly_B' Site 18 :  Track Properties true
+'poly_B' Site 19 :  Track Properties true
+'poly_B' Site 20 :  Track Properties true
+'poly_B' Site 21 :  Track Properties true
+'poly_B' Site 22 :  Track Properties true
+'poly_B' Site 23 :  Track Properties true
+'poly_B' Site 24 :  Track Properties true
+'poly_B' Site 25 :  Track Properties true
+'poly_B' Site 26 :  Track Properties true
+'poly_B' Site 27 :  Track Properties true
+
+ *** BIMOLECULAR BINDING REACTIONS ***
+
+'A_B_binding'       'poly_B' : 'B' : 'State0'  +  'poly_A' : 'A' : 'State0'  kon 10.0  koff 3500.0  Bond_Length 0.5
+
+
+*** CLUSTER COUNTERS ***
+
+Track_Clusters: True
