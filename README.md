@@ -7,7 +7,7 @@ This repository contains simulation files and data used in the [study](https://w
     
   - Structure of the molecules (location and connectivity - number of sites and sitetypes; A, B = stickers; L_a, L_b = linkers or spacers)
     
-  - Variables to compute during simulation (diverse "Counters" commands)
+  - Observables to compute during simulation (diverse "Counters" commands)
     
   - Binding Reaction
   -     'A_B_binding'       'poly_B' : 'B' : 'State0'  +  'poly_A' : 'A' : 'State0'  kon 10.0  koff 3500.0  Bond_Length 0.5
